@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+import "aframe";
 import { Scene } from 'aframe-react';
  
 class App extends React.Component {
