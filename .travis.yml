@@ -12,7 +12,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $ar_test_token
+  github_token: $repo_token
   local_dir: build
   on:
     branch: master
