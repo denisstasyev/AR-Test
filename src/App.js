@@ -10,9 +10,9 @@ class App extends React.Component {
             <div className="App">
                 <Scene artoolkit={{sourceType: 'webcam'}}>
  
-                    <a-anchor hit-testing-enabled="false">
-                        <a-box position='0 0 0' material='opacity: 0.5; color: yellow'></a-box>
-                    </a-anchor>
+                    
+                    <a-box position='0 0 0' material='opacity: 0.5; color: yellow'></a-box>
+                    
                     <a-camera-static preset="hiro" />
                 </Scene>
             </div>
