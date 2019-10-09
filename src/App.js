@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 
-import {Scene} from 'aframe-react';
+import { Scene } from 'aframe-react';
  
 class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <Scene artoolkit={{sourceType: 'webcam'}}>
+                <Scene artoolkit={{sourceType: 'webcam', trackingMethod: 'best'}}>
                     
                     <a-box position='0 0 0' material='opacity: 0.5; color: yellow'></a-box>
                     
