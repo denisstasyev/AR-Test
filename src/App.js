@@ -7,12 +7,13 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <Scene artoolkit={{sourceType: 'webcam', trackingMethod: 'best'}}>
+                <Scene artoolkit={{debugUIEnabled: 'false', sourceType: 'webcam', trackingMethod: 'best'}}>
 
 
-<a-marker-camera preset="hiro">
+<a-marker preset="hiro">
           <a-box position='0 0.5 0' material='color: yellow;'></a-box>
-      </a-marker-camera>
+      </a-marker>
+ <a-entity camera></a-entity>
                 </Scene>
             </div>
         );
