@@ -1,18 +1,21 @@
 import React from 'react';
 import './App.css';
 
-var thisIsMyCopy = `<a-scene embedded arjs>
-      <a-marker preset="hiro">
-          <a-box position="0 0.5 0" material="color: yellow;"></a-box>
-      </a-marker>
-      <a-entity camera></a-entity>
-    </a-scene>`;
+import { Scene } from 'aframe-react';
 
-function App() {
-  return (
-    <div className="App" dangerouslySetInnerHTML={{__html: thisIsMyCopy}}>
-    </div>
-  );
+class App extends React.Component {
+    render() {
+        return (
+            <div className="App">
+                <Scene artoolkit={{sourceType: 'webcam', trackingMethod: 'best'}}>
+                    <a-marker preset="hiro">
+                        <a-box position='0 0 0' material='opacity: 0.5; color: yellow;'></a-box>
+                    </a-marker>
+                    <a-entity camera />
+                </Scene>
+            </div>
+        );
+    }
 }
 
 export default App;
