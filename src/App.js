@@ -10,7 +10,7 @@ class App extends React.Component {
                 <Scene artoolkit={{sourceType: 'webcam', trackingMethod: 'best'}}>
                     <a-marker preset="hiro">
                         {/*<a-box position='0 0 0' material='opacity: 0.5; color: yellow;'></a-box>*/}
-                        <a-entity 
+                        <a-entity position="0 0 0"
                             obj-model="obj: url(models/dog.obj); mtl: url(models/dog.mtl)"></a-entity>
                     </a-marker>
                     <a-entity camera />
