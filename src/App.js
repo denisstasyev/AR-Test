@@ -9,10 +9,10 @@ class App extends React.Component {
             <div className="App">
                 <Scene artoolkit={{sourceType: 'webcam', trackingMethod: 'best'}}>
 
-                    <a-anchor hit-testing-enabled="true">
-                        <a-box position='0 0 -5' material='opacity: 0.5;  color: yellow'></a-box>
-                    </a-anchor>                    
-                    <a-camera-static preset="hiro" />
+
+<a-marker-camera preset="hiro">
+          <a-box position='0 0.5 0' material='color: yellow;'></a-box>
+      </a-marker-camera>
                 </Scene>
             </div>
         );
