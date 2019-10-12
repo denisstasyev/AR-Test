@@ -7,7 +7,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <Scene artoolkit={{sourceType: 'webcam', trackingMethod: 'best'}}>
+                <Scene artoolkit={{sourceType: 'webcam', trackingMethod: 'best'}}> {/* debugUIEnabled: 'false' - not working here */}
                     <a-anchor hit-testing-enabled="true">
                         <a-box position='0 0 0.5' material='opacity: 0.7; color: yellow;'></a-box>
                     </a-anchor>

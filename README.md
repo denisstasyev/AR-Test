@@ -1,4 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# AR-Test
+
+In this repository you can find the best way to integrate AR.js into a React app in my opinion. After many attempts, I managed to get AR.js to work as a React Component. You can test the work of this integration yourself at this [Link](https://denisstasyev.github.io/AR-Test/) with a demo.
+
+## Important Notes
+
+- This method is only for A-Frame
+
+- To allow AR.js running inside iOS Safari browser at least you need to use only HTTPS protocol because of WebRTC technology. That's why here you can find some Travis CI configuration files (and Docker with Nginx and Node.js)
+
+- This project uses default Hiro marker
+
+- Make sure your markers are contrasting enough because this can dramatically change recognition performance
+
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+- The only problem now is that I cannot control debugUIEnabled property of a-scene
 
 ## Available Scripts
 
