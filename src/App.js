@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
 
-//import { Scene } from 'aframe-react';
+import { Scene } from 'aframe-react';
  
 class App extends React.Component {
     render() {
         return (
-            <div>
-                <a-marker preset="hiro">
-                    <a-box position='0 0 0' material='opacity: 0.5; color: yellow;'></a-box>
-                </a-marker>
-                <a-entity camera />
+            <div className="App">
+                <Scene artoolkit={{sourceType: 'webcam', trackingMethod: 'best'}}>
+                    <a-anchor hit-testing-enabled="true">
+                        <a-box position='0 0 0.5' material='opacity: 0.7; color: yellow;'></a-box>
+                    </a-anchor>
+                    <a-camera-static preset="hiro" />
+                </Scene>
             </div>
         );
     }
