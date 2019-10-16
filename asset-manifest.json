@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AR-Test/static/css/main.6d502f0b.chunk.css",
+    "main.js": "/AR-Test/static/js/main.24813a20.chunk.js",
+    "main.js.map": "/AR-Test/static/js/main.24813a20.chunk.js.map",
+    "runtime-main.js": "/AR-Test/static/js/runtime-main.6fc07cbf.js",
+    "runtime-main.js.map": "/AR-Test/static/js/runtime-main.6fc07cbf.js.map",
+    "static/js/2.31b4e2d1.chunk.js": "/AR-Test/static/js/2.31b4e2d1.chunk.js",
+    "static/js/2.31b4e2d1.chunk.js.map": "/AR-Test/static/js/2.31b4e2d1.chunk.js.map",
+    "index.html": "/AR-Test/index.html",
+    "precache-manifest.f95f4d52ded4e2eff71952649a4516c8.js": "/AR-Test/precache-manifest.f95f4d52ded4e2eff71952649a4516c8.js",
+    "service-worker.js": "/AR-Test/service-worker.js",
+    "static/css/main.6d502f0b.chunk.css.map": "/AR-Test/static/css/main.6d502f0b.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fc07cbf.js",
+    "static/js/2.31b4e2d1.chunk.js",
+    "static/css/main.6d502f0b.chunk.css",
+    "static/js/main.24813a20.chunk.js"
+  ]
+}
